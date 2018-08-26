@@ -1,0 +1,322 @@
+info: Listening on http://localhost:3000 {"timestamp":"2018-08-26 22:39:37"}
+info:   <-- %s %s,GET,/ {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/,200,27ms,6.1kb {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/css/bootstrap.min.css {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/css/font-awesome.min.css {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/css/owl.carousel.css {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/css/prettyPhoto.css {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/style.css {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/css/color/white.css {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/css/bootstrap.min.css,200,21ms,17.71kb {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/css/font-awesome.min.css,200,18ms,4.59kb {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/css/owl.carousel.css,200,16ms,524b {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/css/prettyPhoto.css,200,17ms,3.33kb {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/css/responsive.css {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/js/jquery.js {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/js/modernizr-latest.js {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/css/color/white.css,200,17ms,470b {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/style.css,200,17ms,3.17kb {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/js/bootstrap.min.js {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/js/owl.carousel.min.js {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/css/responsive.css,200,15ms,633b {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/js/modernizr-latest.js,200,14ms,15.4kb {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/js/bootstrap.min.js,200,15ms,8.34kb {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/js/owl.carousel.min.js,200,15ms,6.31kb {"timestamp":"2018-08-26 22:39:45"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.js,200,24ms,28.84kb {"timestamp":"2018-08-26 22:39:45"}
+info:   <-- %s %s,GET,/js/jquery.scrollto.min.js {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.scrollto.min.js,200,3ms,1.33kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/phone.png {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/app.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/phone.png,200,5ms,225.35kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/app2.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/duel-phone-big1.png {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/app.jpg,200,11ms,179.01kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/duel-phone-big.png {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/01.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/app2.jpg,200,13ms,136.03kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/02.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/01.jpg,200,9ms,21.85kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/03.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/04.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big1.png,200,18ms,257.94kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/playstore.png {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big.png,200,40ms,252.6kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/amazon.png {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/js/jquery.localScroll.min.js {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/02.jpg,200,36ms,21.21kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/bg.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/03.jpg,200,37ms,19.47kb {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/04.jpg,200,37ms,20.43kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/bg4.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/pattern5.png {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/playstore.png,200,16ms,8.18kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/bg5.jpg {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/amazon.png,200,16ms,34.18kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/images/favicon.ico {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.localScroll.min.js,200,21ms,819b {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/pattern5.png,200,13ms,938b {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/js/jquery.parallax-1.1.3.js {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/favicon.ico,200,10ms,394b {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/bg4.jpg,200,19ms,273.12kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/js/skrollr.min.js {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/bg5.jpg,200,17ms,269.5kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/js/jquery.nav.js {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.parallax-1.1.3.js,200,10ms,794b {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/images/bg.jpg,200,32ms,638.11kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/js/jquery.prettyPhoto.js {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/js/skrollr.min.js,200,10ms,5.41kb {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.nav.js,200,12ms,1.78kb {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.prettyPhoto.js,200,8ms,9.11kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/js/main.js {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/js/main.js,200,2ms,607b {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/fonts/fontawesome-webfont.woff?v=4.1.0 {"timestamp":"2018-08-26 22:39:46"}
+info:   --> %s %s %s %s %s,GET,/fonts/fontawesome-webfont.woff?v=4.1.0,200,4ms,81.8kb {"timestamp":"2018-08-26 22:39:46"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 22:49:05"}
+info:   --> %s %s %s %s %s,GET,/user/login,200,8ms,136b {"timestamp":"2018-08-26 22:49:05"}
+info:   <-- %s %s,GET,/images/favicon.ico {"timestamp":"2018-08-26 22:49:11"}
+info:   --> %s %s %s %s %s,GET,/images/favicon.ico,200,4ms,394b {"timestamp":"2018-08-26 22:49:11"}
+info:   <-- %s %s,GET,/ {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/,200,4ms,6.1kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/css/bootstrap.min.css {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/css/font-awesome.min.css {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/css/font-awesome.min.css,200,4ms,4.59kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/css/owl.carousel.css {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/css/responsive.css {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/css/prettyPhoto.css {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/style.css {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/css/color/white.css {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/css/bootstrap.min.css,200,13ms,17.71kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/css/owl.carousel.css,200,11ms,524b {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/css/responsive.css,200,14ms,633b {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/style.css,200,14ms,3.17kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/css/color/white.css,200,14ms,470b {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/css/prettyPhoto.css,200,17ms,3.33kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/jquery.js {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/modernizr-latest.js {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/bootstrap.min.js {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/owl.carousel.min.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/modernizr-latest.js,200,9ms,15.4kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/bootstrap.min.js,200,9ms,8.34kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/owl.carousel.min.js,200,9ms,6.31kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.js,200,13ms,28.84kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/jquery.scrollto.min.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.scrollto.min.js,200,4ms,1.33kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/phone.png {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/phone.png,200,2ms,225.35kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/app.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/app.jpg,200,2ms,179.01kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/app2.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/app2.jpg,200,2ms,136.03kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/duel-phone-big1.png {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big1.png,200,3ms,257.94kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/duel-phone-big.png {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big.png,200,3ms,252.6kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/01.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/01.jpg,200,2ms,21.85kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/02.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/03.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/04.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/playstore.png {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/amazon.png {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/02.jpg,200,9ms,21.21kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/03.jpg,200,8ms,19.47kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/04.jpg,200,8ms,20.43kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/playstore.png,200,6ms,8.18kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/bg.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/bg4.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/pattern5.png {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/amazon.png,200,10ms,34.18kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/favicon.ico {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/images/bg5.jpg {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/jquery.localScroll.min.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/pattern5.png,200,7ms,938b {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/jquery.parallax-1.1.3.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/favicon.ico,200,11ms,394b {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.localScroll.min.js,200,11ms,819b {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/bg4.jpg,200,18ms,273.12kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/skrollr.min.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/bg5.jpg,200,17ms,269.5kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/jquery.nav.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.parallax-1.1.3.js,200,16ms,794b {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/images/bg.jpg,200,33ms,638.11kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/jquery.prettyPhoto.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/skrollr.min.js,200,16ms,5.41kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.nav.js,200,14ms,1.78kb {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.prettyPhoto.js,200,8ms,9.11kb {"timestamp":"2018-08-26 22:49:14"}
+info:   <-- %s %s,GET,/js/main.js {"timestamp":"2018-08-26 22:49:14"}
+info:   --> %s %s %s %s %s,GET,/js/main.js,200,3ms,607b {"timestamp":"2018-08-26 22:49:14"}
+info: Listening on http://localhost:3000 {"timestamp":"2018-08-26 22:53:23"}
+info:   <-- %s %s,GET,/ {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/,200,19ms,6.1kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/css/bootstrap.min.css {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/css/font-awesome.min.css {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/css/owl.carousel.css {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/css/prettyPhoto.css {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/style.css {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/css/color/white.css {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/css/font-awesome.min.css,200,13ms,4.59kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/css/owl.carousel.css,200,13ms,524b {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/css/responsive.css {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/jquery.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/css/prettyPhoto.css,200,15ms,3.33kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/style.css,200,16ms,3.17kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/css/color/white.css,200,16ms,470b {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/css/bootstrap.min.css,200,26ms,17.71kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/modernizr-latest.js {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/bootstrap.min.js {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/owl.carousel.min.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/css/responsive.css,200,19ms,633b {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/owl.carousel.min.js,200,10ms,6.31kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/bootstrap.min.js,200,12ms,8.34kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.js,200,23ms,28.84kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/modernizr-latest.js,200,14ms,15.4kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/favicon.ico {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/favicon.ico,200,3ms,394b {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/phone.png {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/phone.png,200,3ms,225.35kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/app.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/app2.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/duel-phone-big1.png {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/duel-phone-big.png {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/01.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/app.jpg,200,11ms,179.01kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/01.jpg,200,6ms,21.85kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/02.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/03.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/app2.jpg,200,15ms,136.03kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/04.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big.png,200,15ms,252.6kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/playstore.png {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big1.png,200,40ms,257.94kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/amazon.png {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/bg.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/02.jpg,200,32ms,21.21kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/03.jpg,200,32ms,19.47kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/bg4.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/pattern5.png {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/04.jpg,200,32ms,20.43kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/images/bg5.jpg {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/playstore.png,200,12ms,8.18kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/amazon.png,200,10ms,34.18kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/jquery.scrollto.min.js {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/jquery.localScroll.min.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/pattern5.png,200,9ms,938b {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/jquery.parallax-1.1.3.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/bg4.jpg,200,18ms,273.12kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.scrollto.min.js,200,14ms,1.33kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.localScroll.min.js,200,14ms,819b {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/skrollr.min.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/bg5.jpg,200,21ms,269.5kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/jquery.nav.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.parallax-1.1.3.js,200,15ms,794b {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/images/bg.jpg,200,32ms,638.11kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/jquery.prettyPhoto.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/skrollr.min.js,200,8ms,5.41kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.nav.js,200,7ms,1.78kb {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.prettyPhoto.js,200,7ms,9.11kb {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/js/main.js {"timestamp":"2018-08-26 22:53:29"}
+info:   --> %s %s %s %s %s,GET,/js/main.js,200,2ms,607b {"timestamp":"2018-08-26 22:53:29"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 22:53:35"}
+info:   xxx %s %s %s %s %s,GET,/user/login,500,3ms,- {"timestamp":"2018-08-26 22:53:35"}
+error: {} {"timestamp":"2018-08-26 22:53:35"}
+info: Listening on http://localhost:3000 {"timestamp":"2018-08-26 22:54:18"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 22:54:22"}
+info: 下载文件... {"timestamp":"2018-08-26 22:54:22"}
+info:   --> %s %s %s %s %s,GET,/user/login,404,13ms,- {"timestamp":"2018-08-26 22:54:22"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 22:54:35"}
+info: 下载文件... {"timestamp":"2018-08-26 22:54:35"}
+info:   --> %s %s %s %s %s,GET,/user/login,404,2ms,- {"timestamp":"2018-08-26 22:54:35"}
+info: Listening on http://localhost:3000 {"timestamp":"2018-08-26 23:10:36"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 23:10:38"}
+info: 下载文件... {"timestamp":"2018-08-26 23:10:38"}
+info:   -x- %s %s %s %s %s,GET,/user/login,404,70s,- {"timestamp":"2018-08-26 23:11:49"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 23:11:49"}
+info: 下载文件... {"timestamp":"2018-08-26 23:11:49"}
+info:   -x- %s %s %s %s %s,GET,/user/login,404,120s,- {"timestamp":"2018-08-26 23:13:50"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 23:13:50"}
+info: 下载文件... {"timestamp":"2018-08-26 23:13:50"}
+info: Listening on http://localhost:3000 {"timestamp":"2018-08-26 23:15:03"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 23:15:09"}
+info: 下载文件... {"timestamp":"2018-08-26 23:15:09"}
+info:   --> %s %s %s %s %s,GET,/user/login,200,81ms,7.28mb {"timestamp":"2018-08-26 23:15:09"}
+info:   <-- %s %s,GET,/user/login {"timestamp":"2018-08-26 23:15:49"}
+info: 下载文件... {"timestamp":"2018-08-26 23:15:49"}
+info:   --> %s %s %s %s %s,GET,/user/login,200,61ms,7.28mb {"timestamp":"2018-08-26 23:15:49"}
+info: Listening on http://localhost:3000 {"timestamp":"2018-08-26 23:30:26"}
+info:   <-- %s %s,GET,/ {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/,200,26ms,6.1kb {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/css/bootstrap.min.css {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/css/font-awesome.min.css {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/css/owl.carousel.css {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/css/prettyPhoto.css {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/style.css {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/css/color/white.css {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/css/font-awesome.min.css,200,13ms,4.59kb {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/css/owl.carousel.css,200,13ms,524b {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/css/prettyPhoto.css,200,13ms,3.33kb {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/css/bootstrap.min.css,200,23ms,17.71kb {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/favicon.ico {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/css/responsive.css {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/js/jquery.js {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/css/color/white.css,200,26ms,470b {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/style.css,200,27ms,3.17kb {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/js/modernizr-latest.js {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/js/bootstrap.min.js {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/js/owl.carousel.min.js {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/images/favicon.ico,200,15ms,394b {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/css/responsive.css,200,14ms,633b {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/js/modernizr-latest.js,200,14ms,15.4kb {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/js/owl.carousel.min.js,200,10ms,6.31kb {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/js/bootstrap.min.js,200,13ms,8.34kb {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.js,200,21ms,28.84kb {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/phone.png {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/app.jpg {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/app2.jpg {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/duel-phone-big1.png {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/duel-phone-big.png {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/01.jpg {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/images/app.jpg,200,9ms,179.01kb {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/images/phone.png,200,12ms,225.35kb {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/02.jpg {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/03.jpg {"timestamp":"2018-08-26 23:30:37"}
+info:   --> %s %s %s %s %s,GET,/images/01.jpg,200,11ms,21.85kb {"timestamp":"2018-08-26 23:30:37"}
+info:   <-- %s %s,GET,/images/04.jpg {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/app2.jpg,200,23ms,136.03kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/02.jpg,200,20ms,21.21kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/images/playstore.png {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/03.jpg,200,39ms,19.47kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/images/amazon.png {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big1.png,200,48ms,257.94kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/duel-phone-big.png,200,47ms,252.6kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/images/bg.jpg {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/images/bg4.jpg {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/04.jpg,200,39ms,20.43kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/images/pattern5.png {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/playstore.png,200,14ms,8.18kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/amazon.png,200,11ms,34.18kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/images/bg5.jpg {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/js/jquery.scrollto.min.js {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/js/jquery.localScroll.min.js {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/pattern5.png,200,11ms,938b {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/js/jquery.parallax-1.1.3.js {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/bg4.jpg,200,21ms,273.12kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.scrollto.min.js,200,13ms,1.33kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.localScroll.min.js,200,13ms,819b {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/js/skrollr.min.js {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/bg5.jpg,200,20ms,269.5kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/js/jquery.nav.js {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.parallax-1.1.3.js,200,14ms,794b {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/images/bg.jpg,200,34ms,638.11kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/js/jquery.prettyPhoto.js {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/js/skrollr.min.js,200,11ms,5.41kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.nav.js,200,9ms,1.78kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/js/jquery.prettyPhoto.js,200,8ms,9.11kb {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/js/main.js {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/fonts/fontawesome-webfont.woff?v=4.1.0 {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/fonts/fontawesome-webfont.woff?v=4.1.0,200,3ms,81.8kb {"timestamp":"2018-08-26 23:30:38"}
+info:   --> %s %s %s %s %s,GET,/js/main.js,200,8ms,607b {"timestamp":"2018-08-26 23:30:38"}
+info:   <-- %s %s,GET,/use/down {"timestamp":"2018-08-26 23:30:45"}
+info:   --> %s %s %s %s %s,GET,/use/down,404,2ms,- {"timestamp":"2018-08-26 23:30:45"}
+info:   <-- %s %s,GET,/user/down {"timestamp":"2018-08-26 23:30:50"}
+info: 下载文件 {"timestamp":"2018-08-26 23:30:50"}
+info:   --> %s %s %s %s %s,GET,/user/down,200,51ms,7.28mb {"timestamp":"2018-08-26 23:30:50"}
