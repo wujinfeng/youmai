@@ -2,7 +2,7 @@ const config = require('../config');
 let mongoose = require('mongoose');
 let logSchema = require('./logSchema');
 
-mongoose.connect(config.mongodb);
+mongoose.connect(config.mongodb, {useNewUrlParser: true});
 
 let db = mongoose.connection;
 
