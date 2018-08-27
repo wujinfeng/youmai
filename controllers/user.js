@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const mongo = require('../models');
 
 class User {
     constructor(ctx) {
@@ -7,9 +8,9 @@ class User {
     }
 
     async download() {
-	this._ctx.myLog.info('下载文件')
-	this._ctx.response.attachment('ymapp.apk')
-	this._ctx.body = fs.createReadStream(path.join(__dirname,'../public/ymapp.apk'))
+        this._ctx.myLog.info('下载文件');
+        this._ctx.response.attachment('ymapp.apk');
+        this._ctx.body = fs.createReadStream(path.join(__dirname, '../public/ymapp.apk'));
     }
 }
 

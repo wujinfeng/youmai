@@ -1,21 +1,17 @@
 {
-  "name": "koa2_sample",
+  "name": "youmai",
   "version": "1.0.0",
-  "description": "koa2搭建网站样例",
+  "description": "youmai",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wujinfeng/koa2_sample.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wujinfeng/koa2_sample/issues"
-  },
-  "homepage": "https://github.com/wujinfeng/koa2_sample#readme",
   "dependencies": {
     "koa": "^2.5.2",
     "koa-body": "^4.0.4",
@@ -28,6 +24,7 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "moment": "^2.22.2",
+    "mongoose": "^5.2.9",
     "strip-ansi": "^4.0.0",
     "winston": "^3.0.0",
     "winston-daily-rotate-file": "^3.3.0"
