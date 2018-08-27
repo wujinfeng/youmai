@@ -4,6 +4,6 @@ module.exports = {
         cache: false,
         debug: true
     },
-    mongodb:'mongodb://localhost:27017/testLog',
+    mongodb:'mongodb://localhost:27017/ymLog',
     logDir: './logs/'
 };
