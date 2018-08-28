@@ -13,9 +13,9 @@ class User {
         console.log(ua)
         console.log(ip)
         const log = new mongo.logModel({ip: ip, ua: ua});
-        log.save().then(()=>{
+        log.save().then(() => {
             this._ctx.myLog.info('save to mongodb ok');
-        }).catch((err)=>{
+        }).catch((err) => {
             this._ctx.myLog.info('save to mongodb err');
             this._ctx.myLog.error(JSON.stringify(err));
         });
