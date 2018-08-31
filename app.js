@@ -15,6 +15,7 @@ const log = require('./utils/log');
 const allRoutes = require('./routes/index');
 
 const app = new koa();
+app.proxy = true;
 app.context.myLog = log;
 app.use(favicon(__dirname + '/public/favicon.ico'));
 
