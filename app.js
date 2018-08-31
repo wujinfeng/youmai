@@ -24,7 +24,7 @@ app.use(logger((str, args) => {
 }));
 app.use(helmet());
 app.use(compress());
-app.use(koaStatic(__dirname + '/public'));
+app.use(koaStatic(__dirname + '/public',{maxage: 60000*60*24}));
 render(app, {
     root: path.join(__dirname, 'views'),
     layout: 'layout',
