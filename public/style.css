@@ -294,6 +294,7 @@ header {
 }
 .featured-item .meta-text {
 	margin-left: 80px;
+	height: 220px;
 }
 .featured-item .icon {
 	width: 60px;
