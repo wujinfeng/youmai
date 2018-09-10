@@ -1,0 +1,163 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>app下载</title>
+    <meta name="description" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<!--主动提交 -->
+<script>
+//rem.js自适应布局
+!function(n){
+    var  e=n.document,
+         t=e.documentElement,
+         i=750,
+         d=i/100,
+         o="orientationchange"in n?"orientationchange":"resize",
+         a=function(){
+             var n=t.clientWidth||320;n>750&&(n=750);
+             t.style.fontSize=n/d+"px";
+         };
+         e.addEventListener&&(n.addEventListener(o,a,!1),e.addEventListener("DOMContentLoaded",a,!1));
+}(window);
+
+</script>
+<style>
+	body,html{font-family:"宋体","Arial Narrow",HELVETICA;margin:0 auto;padding:0;color:#333;font-size: 0.36rem;}
+	div,form,ul,ol,li,span,p{margin:0;padding:0;}
+	body,html{
+		width:100%;
+		height:100%;
+		overflow: hidden;
+	}
+	section{
+		height:100%;
+		width:100%;
+		position: relative;
+		background-color: #14ae68;
+		max-width: 960px;
+		margin: 0 auto;
+		background:url(imgs/bg.jpg) no-repeat;
+		background-size: 100% auto;
+	}
+	.bike{
+		width: 60%;
+		height: 39vw;
+		position: absolute;
+		bottom: 0;
+		left: 20%;
+		/*background: url(imgs/bike.png) no-repeat;*/
+		background-size: 100% 100%;
+		z-index: -2;
+	}
+	p{
+		margin: 1rem;
+		display: none;
+		color:#13AE67;
+		padding-top: 200px;
+	}
+	.arrows{
+		position: absolute;
+		top: 5px;
+		right: 12px;
+		width: 20%;
+		height: 20%;
+		background: url(imgs/arrows.png) no-repeat;
+		background-size: 100% 100%;
+		display: none;
+	}
+	.x_logo{
+		width:100%;
+		height:30%;
+		/*background: url(imgs/logo_top1.png) no-repeat center bottom;*/
+		background-size: 25%;
+		position: relative;
+	}
+	.x_down{
+		text-decoration: none;
+		font-size: 0.36rem;
+		max-width: 300px;
+		width:40%;
+		color: #13AE67;
+		border: 1px solid #13AE67;
+		border-radius: 0.39rem;
+		position: absolute;
+		/*bottom: 2em;*/
+		left: 50%;
+		display: block;
+		line-height: 0.78rem;
+		height:0.78rem;
+		text-align: center;
+	}
+
+</style>
+<!--百度统计-->
+<script>
+// var _hmt = _hmt || [];
+// (function() {
+//   var hm = document.createElement("script");
+//   hm.src = "https://hm.baidu.com/hm.js?163e11200092723a76bb99827b5bc225";
+//   var s = document.getElementsByTagName("script")[0];
+//   s.parentNode.insertBefore(hm, s);
+// })();
+</script>
+
+</head>
+<body>
+   	<section>
+   		<div class="x_logo"></div>
+		<a class="x_down" id="downa" href="">立即下载</a>
+		<p class="hint">请点击右上角按钮，选择「在浏览器中打开」，便可轻松下载“智享单车APP”</p>
+		<div class="bike"></div>
+		<span class="arrows"></span>
+   	</section>
+   <script>
+	    /* 这里填写下载地址 */
+	    var android_href = 'http://www.zxbike.cn/app/zxbike-u-V4.3.0-release.apk';   //安卓链接
+	    var ios_href = 'https://itunes.apple.com/cn/app/%E6%99%BA%E4%BA%AB%E5%8D%95%E8%BD%A6/id1114728971?mt=8';  //ios链接
+	    var wchat_href = 'http://a.app.qq.com/o/simple.jsp?pkgname=net.edaibu.easywalking'; //微信链接
+		//获取dom标签
+		var arrows=document.getElementsByClassName("arrows")[0];
+		var x_down=document.getElementsByClassName("x_down")[0];
+		var hint=document.getElementsByClassName("hint")[0];
+		
+	    var aEle = document.getElementById('downa');
+	    var ua = navigator.userAgent;
+	 	if (/(iPhone|iPad|iPod|iOS)/i.test(ua)) {  //判断iPhone|iPad|iPod|iOS
+	    	aEle.setAttribute('href', ios_href);
+	    } else if (/(MicroMessenger)/i.test(ua)) {  //判断微信
+	    	arrows.style.display="block";
+	    	x_down.style.display="none";
+	    	hint.style.display="block";
+	    	aEle.setAttribute('href', wchat_href);
+	    } else if (/(Android)/i.test(ua)) {  //判断Android
+	    	location.href=android_href;
+	    	aEle.setAttribute('href', android_href);
+	    } else {    //pc
+		    aEle.setAttribute('href', android_href);
+		}
+	  
+		//通过选择器得到元素们
+		var boxs = document.querySelectorAll(".x_down");
+
+		//屏幕尺寸被改变的时候执行 
+		window.onresize = set;
+
+		set();
+
+		function set(){
+			var windowHeight = document.documentElement.clientHeight;
+			var windowWidth = document.documentElement.clientWidth;
+			//盒子的计算后的宽度，找到0号盒子当代表，看看此时计算后的宽度是什么
+			var boxBottom = parseInt(getComputedStyle(boxs[0])["bottom"]);
+			//设置高度
+			boxs[0].style.bottom = 0.15*windowHeight + "px";
+			boxs[0].style.marginLeft = -0.2*windowWidth + "px";
+		}
+	
+	</script>
+</body>
+</html>
