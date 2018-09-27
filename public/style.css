@@ -787,7 +787,13 @@ header {
 .download .download-area .app-download strong {
 	font-weight: 300;
 }
-
+.down-img{
+	margin:0 auto;
+	display: table;
+}
+.down-img img.erimg{
+	width:100%;
+}
 /* =========================================
    13. Section Footer                 
 ========================================= */
