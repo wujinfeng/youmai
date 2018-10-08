@@ -151,7 +151,7 @@ textarea:focus {
 
 
 /* =========================================
-   3. Section Header                 
+   3. Section Header
 ========================================= */
 header {
 	background: url(images/bg.jpg) 50% 0 no-repeat fixed;
@@ -204,7 +204,7 @@ header {
 
 
 /* =========================================
-   4. Section Menu                 
+   4. Section Menu
 ========================================= */
 .navigation {
 	min-height: 70px;
@@ -241,7 +241,7 @@ header {
 .navigation .navbar-default .navbar-nav>.active>a:hover,
 .navigation .navbar-default .navbar-nav>.active>a:focus {
  	background: none;
- 	color: #0099FF;
+ 	color: #ffff00;
  }
 .navigation .btn-default:hover,
 .navigation .btn-default:focus,
@@ -253,7 +253,7 @@ header {
 
 
 /* =========================================
-   5. Section Features                 
+   5. Section Features
 ========================================= */
 .features .featured-item-img {
 	width: 252px;
@@ -308,7 +308,7 @@ header {
 
 
 /* =========================================
-   6. Section Screenshots                 
+   6. Section Screenshots
 ========================================= */
 .owl-carousel {
 	margin-bottom: 50px;
@@ -399,7 +399,7 @@ header {
 
 
 /* =========================================
-   7. Section Description                 
+   7. Section Description
 ========================================= */
 .description .app-image {
 	max-width: 441px;
@@ -448,7 +448,7 @@ header {
 	margin-bottom: 15px;
 }
 /* =========================================
-   8. Section Testimonial                 
+   8. Section Testimonial
 ========================================= */
 #testimonial {
 	background: url(images/bg4.jpg) 50% 0 no-repeat fixed;
@@ -495,7 +495,7 @@ header {
 }
 
 /* =========================================
-   9. Section Team                 
+   9. Section Team
 ============================================ */
 .team {
 	text-align: center;
@@ -583,7 +583,7 @@ header {
 }
 
 /* =========================================
-   10. Section Price                 
+   10. Section Price
 ========================================= */
 .price .price-table {
 	padding:0 30px;
@@ -676,7 +676,7 @@ header {
 }
 
 /* =========================================
-   11. Section Subscribe                 
+   11. Section Subscribe
 ========================================= */
 .subscribe {
 	text-align: center;
@@ -739,7 +739,7 @@ header {
 }
 
 /* =========================================
-   12. Section Download                 
+   12. Section Download
 ========================================= */
 #download {
 	background: url(images/bg5.jpg) 50% 0 no-repeat fixed;
@@ -795,7 +795,7 @@ header {
 	width:100%;
 }
 /* =========================================
-   13. Section Footer                 
+   13. Section Footer
 ========================================= */
 
 .footer {
@@ -832,7 +832,7 @@ header {
 }
 
 /* =========================================
-   14. Section Copyright                 
+   14. Section Copyright
 ========================================= */
 .copyright {
 	text-align: center;
