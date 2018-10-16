@@ -790,6 +790,7 @@ header {
 .down-img{
 	margin:0 auto;
 	display: table;
+	padding-bottom: 20px;
 }
 .down-img img.erimg{
 	width:100%;

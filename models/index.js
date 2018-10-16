@@ -1,6 +1,7 @@
 const config = require('../config');
 let mongoose = require('mongoose');
 let logSchema = require('./logSchema');
+let messageSchema = require('./messageSchema');
 
 mongoose.connect(config.mongodb, {useNewUrlParser: true});
 
@@ -13,7 +14,9 @@ db.once('open', function () {
 });
 
 let logModel = mongoose.model('Log', logSchema);
+let MessageModel = mongoose.model('Message', messageSchema);
 
 module.exports = {
-    logModel
+    logModel,
+    MessageModel
 };

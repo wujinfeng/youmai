@@ -12,11 +12,11 @@ jQuery(document).ready(function($) {
   $('#main-nav .nav').onePageNav({
     currentClass: 'active',
     scrollOffset: 69,
-  });  
+  });
 });
 
 $(document).ready(function(){
-   
+
   //.parallax(xPosition, speedFactor, outerHeight) options:
   //xPosition - Horizontal position of the element
   //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
     });
 
-    jQuery(function( $ ){
+jQuery(function( $ ){
           $('#download-app1').localScroll({
             duration:1200
           });
@@ -46,3 +46,31 @@ $(document).ready(function() {
           });
         });
 
+
+jQuery('#form').submit(function (event) {
+    event.preventDefault();
+    var name= $('#name').val();
+    var email= $('#email').val();
+    var subject= $('#subject').val();
+    var message= $('#message').val();
+    $.ajax({
+        url:'/user/message',
+        data:{name:name, email:email, subject:subject, message:message},
+        type:'POST',
+        dataType:'json',
+        success:function (res) {
+            console.log(res)
+            console.log(typeof res)
+            if(res && res.code === 200){
+                $('#myModalBody').text(res.msg)
+                $('#myModal').modal()
+            }else{
+                $('#myModalBody').text(res.msg)
+                $('#myModal').modal()
+            }
+        },
+        error: function(a, b, c){
+            console.log(a, b, c)
+        }
+    })
+});
