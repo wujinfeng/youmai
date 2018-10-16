@@ -9,4 +9,8 @@ router.post('/user/message', async (ctx)=>{
    await new user(ctx).message();
 });
 
+router.get('/user/getMessage', async (ctx)=>{
+    await new user(ctx).getMessage();
+});
+
 module.exports = router;

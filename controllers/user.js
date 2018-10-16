@@ -31,14 +31,27 @@ class User {
         let m = new mongo.MessageModel({name, email, subject, message});
         try {
             await m.save();
-            that._ctx.body = {code: 200, msg: '恭喜提交成功！'}
+            that._ctx.body = {code: 200, msg: '恭喜提交成功！'};
             that._ctx.myLog.info('message save to mongodb ok');
         } catch (e) {
-            that._ctx.body = {code: 500, msg: 'sorry, 提交失败！'}
+            that._ctx.body = {code: 500, msg: 'sorry, 提交失败！'};
             that._ctx.myLog.info('message save to mongodb err');
-            that._ctx.myLog.error(JSON.stringify(err));
         }
     }
+
+    async getMessage() {
+        let that = this;
+        try {
+            let r = await mongo.MessageModel.find().sort({date: -1});
+            await this._ctx.render('message', {
+                result: r
+            })
+        } catch (e) {
+            that._ctx.body ='失败！';
+        }
+    }
+
+
 }
 
 module.exports = User;
